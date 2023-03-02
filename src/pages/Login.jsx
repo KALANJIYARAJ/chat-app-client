@@ -86,6 +86,26 @@ export default function Login() {
           <span>
             Don't have an account ? <Link to="/register">Create One.</Link>
           </span>
+          <p
+            style={{
+              color: "#4e0eff",
+              fontWeight: "Bold",
+              textAlign: "center",
+              fontSize: "1.3rem",
+            }}
+          >
+            Username : Test
+          </p>
+          <p
+            style={{
+              color: "#4e0eff",
+              fontWeight: "Bold",
+              textAlign: "center",
+              fontSize: "1.3rem",
+            }}
+          >
+            Password : 12345678
+          </p>
         </form>
       </FormContainer>
       <ToastContainer />
